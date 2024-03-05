@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    background-color: rgb(245, 206, 188);
+}
+header{
+    background-color:rgb(44, 44, 100);  
+    margin: 1% 10% 1% 10%;
+    padding: 10px;
+    border-radius: 30px;
+}
+header li{
+    display: inline;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+main p{
+    text-align: center;
+    color: white;
+}
+main .home{
+    background-color: rgb(42, 85, 134);
+    margin: 5%;
+    padding: 50px;
+    border-radius: 30px;
+}
+main #about{
+    background-color: rgb(42, 85, 134);
+    margin: 5%;
+    padding: 50px;
+    border-radius: 30px;
+}
+main #projects{
+    background-color: rgb(42, 85, 134);
+    margin: 5%;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
