@@ -1,9 +1,10 @@
 body{
     margin: 0%;
     background-color: rgb(245, 206, 188);
+    font-family: "Arial",sans-serif;
 }
 header{
-    background-color:rgb(44, 44, 100);  
+    background-color: rgb(127, 179, 213);  
     margin: 1% 10% 1% 10%;
     padding: 10px;
     border-radius: 30px;
@@ -22,21 +23,27 @@ main p{
     color: white;
 }
 main .home{
-    background-color: rgb(42, 85, 134);
+    background-color: rgb(84, 153, 199 );
     margin: 5%;
     padding: 50px;
     border-radius: 30px;
 }
 main #about{
-    background-color: rgb(42, 85, 134);
+    background-color: rgb(84, 153, 199 );
     margin: 5%;
     padding: 50px;
     border-radius: 30px;
 }
 main #projects{
-    background-color: rgb(42, 85, 134);
+    background-color: rgb(84, 153, 199);
     margin: 5%;
-    padding: 50px;
+    padding: 30px;
+    border-radius: 30px;
+}
+main #projects .project1{
+    display: inline-block;
+    background-color: rgb(33, 97, 140);
+    padding: 10px;
     border-radius: 30px;
 }
 
@@ -44,4 +51,11 @@ footer{
     background-color: black;
     color: white;
     padding: 1%;
+}
+footer li{
+    display: inline-table;
+}
+footer img{
+    width: 30px;
+    filter: invert(1);
 }
