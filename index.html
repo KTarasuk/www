@@ -6,23 +6,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Главная страница | КТарасюк</title>
 </head>
-<body>
+<body id="bodyWebSite">
     <header> <!-- MENU BAR PC/MOBILE -->
         <div class="menuMobile">
             <div id="menuListMobile">
-                <li><a onclick="menuBarClose()"><img src="img/icon/menuClose.svg" alt="Close menu"></a></li>
+                <li><a onclick="menuBarClose()"><img src="/img/icon/menuClose.svg" alt="Close menu"></a></li>
                 <li><a href="#about" onclick="menuBarClose()">О мне</a></li>
                 <li><a href="#projects" onclick="menuBarClose()">Мои проекты</a></li>    
             </div>
             <div class="menuBar">
-                <li><a>KTarasuk |</a></li>
-                <li><a onclick="menuBarOpen()"><img src="img/icon/menuOpen.svg" alt="Open menu"></a></li>
+                <li><a>КТарасюк |</a></li>
+                <li><a onclick="menuBarOpen()"><img src="/img/icon/menuOpen.svg" alt="Open menu"></a></li>
             </div>
         </div>
         <div class="menuPC">
-            <li><a href="#info">KTarasuk |</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#info">КТарасюк |</a></li>
+            <li><a href="#about">О мне</a></li>
+            <li><a href="#projects">Мои проекты</a></li>
         </div>
     </header>
 
@@ -32,7 +32,7 @@
         </div>
 
         <div id="about">
-            <p><b>О мне:</b><br>Меня зовут Кирилл!<br>Мне 16 лет</p>
+            <p><b>О мне:</b><br>Меня зовут Кирилл!<br>Мне 16 лет</p>    
         </div>
 
         <div id="projects">
@@ -48,7 +48,7 @@
         </div>
 
         <div id="iP" class="infoProjects">
-            <a onclick="closeInfoProject()"><img src="img/icon/menuClose.svg" alt="Close Info Project"></a>
+            <a onclick="closeInfoProject()"><img src="/img/icon/menuClose.svg" alt="Close Info Project"></a>
             <div id="projectOne" class="infoProjectOne">
                 <p><br>Проект №1<br><br>Название: Console Project<br>Использоваль: C++<br>Программы: VisualStudio2022<br><br><a href="https://github.com/KTarasuk/MiniProject001" target="_blank" style="color: white; text-decoration: none;">GitHub</a></p>
             </div>
@@ -62,6 +62,6 @@
         <a href="https://github.com/KTarasuk" target="_blank"><img src="img/icon/github.svg" alt="GitHub"></a>
     </footer>
     <noscript>В вашем браузере отключен JavaScipt!<br>Сайт может работать не стабильно!</noscript>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
